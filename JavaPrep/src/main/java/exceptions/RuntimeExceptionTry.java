@@ -15,17 +15,14 @@ class Mainclass{
 class Subclass extends Mainclass{
 	
 	@Override
-	public void throwsChecked() throws RuntimeException{
+	public void throwsChecked() throws Exception{
 		System.out.println("Subclass throwsChecked");
 	}
-	/*public void throwsChecked() throws Exception{
-		System.out.println("Subclass throwsChecked");
-	}*/
 
-	/*@Override
+	@Override
 	public void throwsUnchecked() throws RuntimeException{
 		System.out.println("Subclass throwsUnchecked");
-	}*/
+	}
 }
 public class RuntimeExceptionTry {
 	public static void main(String[] args) {
