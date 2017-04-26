@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author srinivasev
- *
- */
-package abstractclass;
